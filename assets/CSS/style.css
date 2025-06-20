@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b3b3b3;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+
+/* --------------NAVBAR------------------------ */
+.navbar img {
+    width: 50px; 
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.navbar a {
+    font-family: "Poppins", sans-serif;
+    font-size :30px;
+    color: #fff;
+    margin: 0 1em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: rgb(105, 0, 0);
+}
+
+.dropbtn {
+    font-family: 'poppins', sans-serif;
+    padding: 16px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+button {
+    font-family: 'poppins', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    color: rgb(105, 0, 0);
+}
+.dropdown-content {
+    font-family: 'poppins', sans-serif;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    background-color: #333;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropbtn button {
+    color: rgb(105, 0, 0);
+}
+
+.dropdown-content a:hover {
+    color: rgb(105, 0, 0);
+}
+
+/* ------------------INDEX-------------------- */
+
+.index img{
+    width: 50%;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.intro p {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    margin: 10px;
+}
+
+/* -------------------Univers------------------- */
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.box {
+    width: auto;
+    padding: 1em;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.box img {
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.box h2 {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: #333;
+}
+
+
+/* ------------------MOVIE--------------------- */
+.movie-phase, .movie-item, .movie-saga {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e4e2e2;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.movie-saga img {
+    width: 850px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.movie-phase img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.movie-item img {
+    width: 150px;
+    height: auto;
+    margin-right: 1em;
+    border-radius: 10px;
+}
+
+.content {
+    flex: 1;
+    padding: 2em;
+    max-width: 800px;
+    width: 100%;
+}
+
+.movie-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.movie-info {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+/*--------------------------------------*/
+
+.releaseYear, .mcuUnivers, .dcuUnivers {
+    font-size: 20px;
+    margin: 10px;
+}
+
+/*--------------------------------------*/
+
+footer {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+.footer .socials {
+    margin-top: 10px;
+}
+
+.footer .socials a {
+    margin: 0 0.5em;
+}
+
+.footer .socials img {
+    width: 32px;
+    height: 32px;
+}
+
+.disclamer {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 1em;
+    color: red;
+}
